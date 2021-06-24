@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Oxybite</string>
+    <string name="glass_count">glassCount</string>
+    <string name="setting_menu">Settings</string>
+    <string name="setting_notification">Notification</string>
+    <string name="setting_reminder">Notification Reminder</string>
+    <string name="key_notification">setting_reminder</string>
+    <string name="setting_interval">Reminder Interval</string>
+    <string name="key_interval">setting_interval</string>
+    <string name="summary_interval">Set the interval time for notification </string>
+    <string name="channel_reminder">Channel Reminder</string>
+    <string name="channel_desc_reminder">Set the interval between reminders</string>
+    <string name="notification_title">Water Reminder</string>
+    <string name="notification_text">you didn\'t drank enough water</string>
+</resources>

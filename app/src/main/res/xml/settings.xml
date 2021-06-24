@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/setting_notification">
+<SwitchPreference
+    android:id="@+id/reminderSetting"
+    android:title="@string/setting_reminder"
+    android:defaultValue="false"
+    android:key="@string/key_notification"/>
+<EditTextPreference
+    android:id="@+id/textReminder"
+    android:title="@string/setting_interval"
+    android:summary="@string/summary_interval"
+    android:key="@string/key_interval"
+    android:dependency="@string/key_notification"
+    android:inputType="numberSigned"
+    android:defaultValue="30"/>
+</PreferenceCategory>
+</PreferenceScreen>
